@@ -5,23 +5,42 @@
 
 @font-face {
     font-family: 'Nunito';
-    src: url("House-Targaryen/rsc/fonts/nunito sans/NunitoSans-Light.ttf");
+    src: url("D:/CODING/House-Targaryen/rsc/fonts/nunito sans/NunitoSans-Light.ttf");
 }
 @font-face {
     font-family: 'ManropeRegular';
-    src: url("House-Targaryen/rsc/fonts/static/Manrope-Regular.ttf");
+    src: url("D:/CODING/House-Targaryen/rsc/fonts/static/Manrope-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Title';
-    src: url("House-Targaryen/rsc/fonts/lato/Lato-Black.ttf");
+    src: url("D:/CODING/House-Targaryen/rsc/fonts/lato/Lato-Black.ttf");
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .backvideo{
+        width: auto;
+        height: 100%;
+    }
 }
 
 header{
+<<<<<<< HEAD
     background-image: url("2215552.png");
+=======
+    background-image: url("D:/CODING/House-Targaryen/rsc/2215552.png");
+>>>>>>> cae1bf94653f22974fb2b76529d0c6cbad00a69b
     height: 100vh;
     background-size: cover;
     background-position: center;
+
 }
 
 ul{
