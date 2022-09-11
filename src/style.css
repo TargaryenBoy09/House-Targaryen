@@ -1,11 +1,38 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: serpentype-albula-pro-bold;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url("D:/CODING/House-Targaryen/rsc/fonts/nunito sans/NunitoSans-Light.ttf");
+}
+@font-face {
+    font-family: 'ManropeRegular';
+    src: url("D:/CODING/House-Targaryen/rsc/fonts/static/Manrope-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Title';
+    src: url("D:/CODING/House-Targaryen/rsc/fonts/lato/Lato-Black.ttf");
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .backvideo{
+        width: auto;
+        height: 100%;
+    }
 }
 
 header{
-    background-image: url("D:/CODING/House-Targaryen/rsc/22411225.png");
+    background-image: url("D:/CODING/House-Targaryen/rsc/2215552.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -13,7 +40,7 @@ header{
 }
 
 ul{
-    float: left;
+    float: right;
     list-style-type: none;
     margin-top: 25px;
 }
@@ -23,9 +50,10 @@ ul li{
 }
 
 ul li a{
+    font-family: 'Nunito';
     text-decoration: none;
     color: #fff;
-    padding: 5px 50px;
+    padding: 5px 30px;
     transition: 0.6s ease;
 }
 
@@ -36,11 +64,34 @@ ul li a:hover{
 
 .title{
     position: absolute;
-    font-size: 50px;
+    font-family: 'Title';
+    font-size: 30px;
     text-shadow: 0 0 30px rgb(0, 0, 0);
     color: #fff;
-    top: 35%;
-    left: 25%;
+    top: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
 }
+
+.logo img{
+    float: left;
+    margin-top: 40px;
+    width: 70px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.quote{
+    position: absolute;
+    font-family: 'Nunito';
+    font-size: 15px;
+    top: 70%;
+    left: 11%;
+    color: #fff;
+}
+
 
