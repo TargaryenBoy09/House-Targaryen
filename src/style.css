@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Nunito';
-    src: url("D:/CODING/House-Targaryen/rsc/fonts/nunito sans/NunitoSans-Light.ttf");
+    src: url("fonts/nunito sans/NunitoSans-Light.ttf");
 }
 @font-face {
     font-family: 'ManropeRegular';
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Title';
-    src: url("D:/CODING/House-Targaryen/rsc/fonts/lato/Lato-Black.ttf");
+    src: url("fonts/lato/Lato-Black.ttf");
 }
 
 @media (min-aspect-ratio: 16/9){
@@ -32,11 +32,7 @@
 }
 
 header{
-<<<<<<< HEAD
-    background-image: url("2215552.png");
-=======
-    background-image: url("D:/CODING/House-Targaryen/rsc/2215552.png");
->>>>>>> cae1bf94653f22974fb2b76529d0c6cbad00a69b
+    background-image: url("images/2215552.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
