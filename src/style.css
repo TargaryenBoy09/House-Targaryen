@@ -94,5 +94,12 @@ ul li a:hover{
     color: #fff;
 }
 
-
+.about-sec {
+    font-family: 'Nunito';
+    text-decoration: none;
+    padding: 150px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
 
