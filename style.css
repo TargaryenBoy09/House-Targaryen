@@ -124,6 +124,12 @@ h4{
   color: white;
 }
 
+h2{
+  font-family: 'Roboto-Reg';
+  font-size: 40px;
+  color: #bc8f57
+}
+
 /*Eagle*/
 h1{
   font-family: 'Roboto-Reg';
