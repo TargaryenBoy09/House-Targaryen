@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="res/css/all.css">
+</head>
+</head>
+<body>
+<section class="about-layout">
+    <nav>
+        <h2 class="logo"></h2>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">.home( )</a></li>
+                <li><a href="animals.html">.animals( )</a></li>
+                <li><a href="action.html">.take action( )</a></li>
+                <li><a href="about.html">.about us( )</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+
+    <div class="about-content">
+        <h1>About us</h1>
+        <p>We are students from St Louis University who aims to help animals by spreading knowledge about their situation. Animals have biological requirements they feel pain, stress, and discomfort just like humans do. 
+            <br> Many people have sophisticated emotions including happiness, joy, depression, and distress. According to studies, they have close family ties and have genuine sympathy for one another. 
+            <br> They are unable to speak for themselves, though. It is therefore simpler for people to disregard their misery and utilize them only as commodities. 
+            <br> It is up to us as humans to give them a voice, stand up for them, and put an end to their suffering.</p>
+            <a href="" class="more-btn">CLICK HERE TO KNOW MORE</a>
+    </div>
+</section>
+
+
+
+
+
+<!--Toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
