@@ -24,6 +24,21 @@
   height: 100vh;
   width: 100%;
 }
+  .layout1{
+    background-image: url("images/tamaraw.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+  }
+    .layout2{
+      background-image: url("images/tarsier.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+    }
 
 
 
@@ -114,11 +129,25 @@ nav ul li a::after{
 */
 .content{
   position: absolute;
-  top: 55%;
+  top: 25%;
   left: 10%;
   transform: translateY(-50%);
 }
-
+.content1{
+  top: 55%;
+  left: 1%;
+}
+.content1 h1{
+  font-family: 'Roboto-Reg';
+  color: #bc8f57;
+  margin: 1px -10px -30px;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.content2{
+  top: 55%;
+  left: 10%;
+}
 /*Philippine*/
 h4{
   font-family: 'Roboto-Bold';
@@ -136,10 +165,11 @@ h2{
 h1{
   font-family: 'Roboto-Reg';
   color: #bc8f57;
-  margin: -40px -10px -30px;
-  font-size: 130px;
+  margin: 1px -10px -30px;
+  font-size: 50px;
   letter-spacing: 5px;
 }
+
 /*Home */
 .paragraphHOME{
   color: #fff;
@@ -404,15 +434,10 @@ p.para2{
   }
 }
 
-@media screen and (max-width: 600px) {
-  .layout{
-    background-image: url("images/banner-img.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-  }
-}
+
+
+
+
 /* About HTML */
 .about-layout{
   min-height: 100vh;
@@ -513,4 +538,22 @@ nav .fa{
   margin-left: 5px;
   margin-right: 30px;
   border-radius: 50%;
+}
+
+/* About Animals*/
+/* Eagle*/
+
+.paragraphEAGLE{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+p.paraEAGLE1{
+  margin-top:-1%;
+  margin-right: 25%;
+  margin-left: ;
+  text-align: justify;
+  text-justify: inter-word;
+
 }
