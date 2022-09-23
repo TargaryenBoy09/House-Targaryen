@@ -161,6 +161,20 @@ p.para2{
   text-justify: inter-word;
 
 }
+/*Animals-Eagle*/
+.paragraphEAGLE{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+p.paraEAGLE1{
+  margin-right: 25%;
+  margin-left: ;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
 /*Ph Eagle description*/
 .paragraph{
   color: #fff;
