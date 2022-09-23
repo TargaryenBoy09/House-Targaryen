@@ -172,7 +172,6 @@ p.para2{
   margin-right: 25%;
   text-align: justify;
   text-justify: inter-word;
-
 }
 /*Animals-Eagle*/
 .paragraphEAGLE{
@@ -184,6 +183,18 @@ p.para2{
 p.paraEAGLE1{
   margin-right: 25%;
   margin-left: ;
+  text-align: justify;
+  text-justify: inter-word;
+}
+p.paraEAGLE1{
+  margin-right: 25%;
+  margin-left: ;
+  text-align: justify;
+  text-justify: inter-word;
+}
+p.paraEAGLE2{
+  margin-top: 2%;
+  margin-right: 25%;
   text-align: justify;
   text-justify: inter-word;
 }
