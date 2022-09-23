@@ -6,7 +6,9 @@
   box-sizing: border-box;
 
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: 'Roboto-Reg';
   src: url("fonts/roboto-slabs/RobotoSlab-Regular.ttf");
@@ -103,22 +105,22 @@ nav ul li a::after{
 /*Logo keyframes*/
 @keyframes appear{
   0%{
-    content: ".animal( )";
+    content: "ANIMAL";
   }
 
   25%{
-    content: ".welfare( )";
+    content: "WELFARE";
   }
 
   50%{
-    content: ".by( )";
+    content: "BY";
   }
   75%{
-    content: ".house( )";
+    content: "HOUSE";
   }
 
   100%{
-    content: ".targaryen( )";
+    content: "TARGARYEN";
   }
 }
 
@@ -749,6 +751,7 @@ nav .fa{
   cursor: pointer;
   transition: 0.4s;
 }
+
 .bar:hover{
   background: #fff;
 }
