@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-    
+
 }
 
 @font-face {
@@ -49,7 +49,7 @@ nav ul li{
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
-   
+
 }
 
 nav ul li a{
@@ -57,7 +57,7 @@ nav ul li a{
   text-decoration: none;
   font-weight: bold;
   font-size: small;
-     
+
 }
 
 a{
@@ -73,8 +73,8 @@ nav ul li a:hover:after{
 nav ul li a::after{
   display:block;
   content: '';
-  border-bottom: solid 3px #bc8f57;  
-  transform: scaleX(0);  
+  border-bottom: solid 3px #bc8f57;
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
   transform-origin:100% 50%
 }
@@ -83,7 +83,7 @@ nav ul li a::after{
 .logo{
   color: #bc8f57;
   font-size: 28px;
-  
+
 }
 
 /*Logo Animation*/
@@ -138,7 +138,11 @@ h3{
   color: white;
   margin-left:2%;
 }
-
+h3{
+  font-family: 'Roboto-Reg';
+  font-size: 30px;
+  color: #bc8f57
+}
 h2{
   font-family: 'Roboto-Reg';
   font-size: 40px;
@@ -269,15 +273,15 @@ p.paraALL{
 
 .line1 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__1 3s steps(100, end) 1s 1 normal both,
              animated-cursor__1 900ms steps(30, end) 8;
 }
-  
+
 .line2 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
              animated-cursor__2 900ms steps(30, end)5;
@@ -287,7 +291,7 @@ p.paraALL{
 
 .line3 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
              animated-cursor__2 900ms steps(30, end)5;
@@ -297,7 +301,7 @@ p.paraALL{
 
 .line4 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
       animated-cursor__2 900ms steps(30, end) 5;
@@ -307,7 +311,7 @@ p.paraALL{
 
 .line5 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
       animated-cursor__2 900ms steps(30, end) 5;
@@ -317,7 +321,7 @@ p.paraALL{
 
 .line6 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
       animated-cursor__2 900ms steps(30, end) 5;
@@ -327,7 +331,7 @@ p.paraALL{
 
 .line7 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
       animated-cursor__2 900ms steps(30, end) 5;
@@ -337,7 +341,7 @@ p.paraALL{
 
 .line8 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
-  
+
   /* define animation types for text + cursor */
   animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
       animated-cursor__2 900ms steps(30, end) infinite;
@@ -349,7 +353,7 @@ p.paraALL{
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-  
+
 @keyframes animated-cursor__2 {
   from, to { border-color: transparent }
   50% { border-color: orange; }
@@ -384,7 +388,7 @@ p.paraALL{
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-  
+
 @keyframes animated-text__1 {
   from {
     width: 0;
@@ -393,7 +397,7 @@ p.paraALL{
     width: 30rem;
   }
 }
-  
+
 @keyframes animated-text__2 {
   from {
     width: 0;
@@ -545,28 +549,132 @@ nav .fa{
 }
 /* --Who are we?-- */
 
-.waw{
+.tht{
   width: 80%;
   margin: auto;
   padding-top: 100px;
   text-align: center;
+  font-family: 'Roboto-Reg';
+  font-size: 20px;
+  color: #bc8f57
 }
-.waw-column{
+.tht-column{
   flex-basis: 44%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  background: #fff3f3;
+  background: rgb(211,211,211,0.4);
   padding: 25px;
   cursor: pointer;
   display: flex;
+  font-family: 'Roboto-Reg';
+  font-size: 20px;
+  color: black
 }
-.waw-column img{
-  height: 40px;
-  margin-left: 5px;
+.tht-fb {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+.tht-gmail {
+  width: 50px;
+  height: 70px;
+  float: left;
+}
+.tht-fb img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.tht-gmail img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.tht-column img{
+  height: 200px;
+  width: 200px;
   margin-right: 30px;
   border-radius: 50%;
 }
+.wrapper{
+  display: inline-flex;
+}
+.wrapper .icon{
+  margin: 0 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .icon span{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: block;
+  background: #fff;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.wrapper .icon span i{
+  font-size: 25px;
+  line-height: 60px;
+}
+.wrapper .icon .tooltip{
+  top: 0px;
+  background: #fff;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  pointer-events: none;
+  opacity:0;
+  position: absolute;
+  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .icon:hover span i{
+  color: #fff;
+}
+.wrapper .icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .icon:hover .tooltip{
+  top: -70px;
+  opacity:1;
+  pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before{
+  background: #3B5999;
+}
+.wrapper .Gmail:hover span,
+.wrapper .Gmail:hover .tooltip,
+.wrapper .Gmail:hover .tooltip:before{
+  background: #3CBA54;
+}
+.wrapper .Github:hover span,
+.wrapper .Github:hover .tooltip,
+.wrapper .Github:hover .tooltip:before{
+  background: #333;
+}
+
 /*Animals-2column*/
 
 .column1 {
