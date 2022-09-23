@@ -599,7 +599,7 @@ nav .fa{
   flex-basis: 44%;
   border-radius: 10px;
   margin-bottom: 5%;
-  text-align: left;
+  text-align: center;
   background: rgb(0,0,0,0.2);
   padding: 25px;
   display: flex;
@@ -609,10 +609,31 @@ nav .fa{
   transform: translate(32.5%, 7%);
 }
 .tht-column img{
-  height: 200px;
-  width: 200px;
-  margin-right: 30px;
+  height: 250px;
+  width: 250px;
+  margin-right: 10px;
   border-radius: 50%;
+}
+.hover-image{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  color: #fff;
+}
+.hover-image img{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition:opacity 0.5s ease-in-out;
+}
+.hover-image img.img-front:hover{
+  opacity: 0;
+  cursor: pointer;
 }
 .wrapper{
   display: inline-flex;
