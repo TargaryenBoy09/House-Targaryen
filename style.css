@@ -140,7 +140,27 @@ h1{
   font-size: 130px;
   letter-spacing: 5px;
 }
+/*Home */
+.paragraphHOME{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+p.para1{
+  margin-right: 25%;
+  margin-left: ;
+  text-align: justify;
+  text-justify: inter-word;
 
+}
+p.para2{
+  margin-top: 2%;
+  margin-right: 25%;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
 /*Ph Eagle description*/
 .paragraph{
   color: #fff;
