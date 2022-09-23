@@ -571,24 +571,6 @@ nav .fa{
   font-size: 20px;
   color: black
 }
-.tht-fb {
-  width: 70px;
-  height: 70px;
-  float: left;
-}
-.tht-gmail {
-  width: 50px;
-  height: 70px;
-  float: left;
-}
-.tht-fb img{
-  max-width: 100%;
-  max-height: 100%;
-}
-.tht-gmail img{
-  max-width: 100%;
-  max-height: 100%;
-}
 .tht-column img{
   height: 200px;
   width: 200px;
