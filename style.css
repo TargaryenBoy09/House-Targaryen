@@ -4,7 +4,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-
 }
 html {
   scroll-behavior: smooth;
@@ -42,8 +41,56 @@ html {
   width: 100%;
 }
 
+.layout3{
+  background-image: url("images/bleeding.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
 
-
+.layout4{
+  background-image: url("images/walden.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.layout5{
+  background-image: url("images/crocodile.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.layout6{
+  background-image: url("images/calamian.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.layout7{
+  background-image: url("images/bat.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.layout8{
+  background-image: url("images/brownDove.jfif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.layout9{
+  background-image: url("images/sulu.jfif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
 nav{
   
   font-family: 'Lato-Reg';
@@ -116,9 +163,35 @@ nav ul li a::after{
   top: 55%;
   left: 10%;
   transform: translateY(-50%);
+  background: rgb(0,0,0,0.4);
+  margin: 10px 3% 40px;
+  width: 50%;
 }
-
+.content h4{
+  margin: 0px 3% 0px;
+}
+.content h2{
+  margin: 0px 3% 0px;
+}
+.content p{
+  margin: 0px 3% 0px;
+}
 /*Philippine*/
+<<<<<<< HEAD
+=======
+h4{
+  font-family: 'Roboto-Bold';
+  font-size: x-large;
+  color: white;
+}
+h3{
+  font-family: 'Roboto-Bold';
+  font-size: 50px;
+  color: white;
+  margin-left:30%;
+  margin-top: 2%;
+}
+>>>>>>> 321e10503ec819e0f568630a64304ae6ed59c53a
 h2{
   font-family: 'Uni-Black';
   font-size: 100px;
@@ -204,6 +277,7 @@ p.paraALL{
   padding-top: 50px;
   letter-spacing: 2px;
 }
+<<<<<<< HEAD
 .learn-more{
   font-family: 'Lato-Reg';
   display: inline-block;
@@ -215,6 +289,20 @@ p.paraALL{
   background: transparent;
   margin-top: 50px;
   position: relative;
+=======
+
+.link{
+  font-family: 'Roboto-Bold';
+  font-size: x-large;
+  color: #bc8f57;
+  width: 160px;
+  padding-top: 15px;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+
+.learnMore:hover{
+>>>>>>> 321e10503ec819e0f568630a64304ae6ed59c53a
   cursor: pointer;
 }
 
@@ -244,6 +332,14 @@ p.paraALL{
   }
 }
 /* About HTML */
+.know-layout{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .about-layout{
   min-height: 100vh;
     width: 100%;
@@ -251,7 +347,7 @@ p.paraALL{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    position: absolute;
 }
 .about-content{
   width: 50%;
@@ -261,6 +357,7 @@ p.paraALL{
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+
 }
 .about-content h1{
   margin: 10px 0 40px;
@@ -273,24 +370,26 @@ p.paraALL{
   color: white;
 }
 .know-content{
-  width: 90%;
+  width: 60%;
   color: white;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  left: 77%;
+  transform: translate(-70%,-40%);
   text-align: right;
+  background: rgb(0,0,0,0.4);
 }
 .know-content h1{
-  margin: 10px 0 40px;
+  margin: 10px 3% 40px;
   font-size: 62px;
 }
 .know-content p{
-  margin: 10px 0 40px;
+  margin: 10px 3% 40px;
   font-size: 14px;
   color: white;
   font-family: 'Roboto-Reg';
 }
+
 .more-btn{
   display: inline-block;
   text-decoration: none;
@@ -342,52 +441,6 @@ nav .fa{
     }
 }
 
-/* --School Campuses-- */
-.university{
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: 'Roboto-Reg';
-  font-size: 20px;
-  color: #bc8f57;
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  /* background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; */
-}
-.university h1{
-  margin: 10px 0 40px;
-  font-size: 62px;
-}
-.university p{
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0 ;
-}
-.university-column{
-  flex-basis: 32%;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  margin: 10px;
-  position: relative;
-  overflow: hidden;
-}
-.university-column img{
-  width: 100%;
-  display: block;
-}
-.row-university{
-  margin-top: 2%;
-  margin-bottom: 2%;
-  display: flex;
-  justify-content: space-between;
-}
 .layer{
   background: transparent;
   height: 100%;
@@ -414,10 +467,10 @@ nav .fa{
   width: 100%;
   font-weight: 500;
   color: white;
-  font-size: 26px;
+  font-size: 20px;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 21%;
+  transform: translate(-50%,40%);
   position: absolute;
   opacity: 0;
   transition: 0.5s;
@@ -449,6 +502,12 @@ nav .fa{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+.tht-column h3{
+  font-family: 'Roboto-Reg';
+  font-size: 30px;
+  color: #bc8f57;
+  margin-left:2%;
 }
 .tht-column{
   width: 60%;
@@ -581,44 +640,68 @@ nav .fa{
 }
 
 /*Animals-2column*/
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
 .column1 {
   float: left;
   width: 50%;
   padding: 40px;
   margin-top: -2%;
+  margin-left:10%;
 
 }
 .column2 {
-  float: left;
+  float: middle;
   width: 50%;
   padding: 40px;
-  margin-top: -2%;
-  margin-left: -20%;
+  margin-top: -17.5%;
+  margin-left: 37%;
 
 }
 .column3 {
-  float: left;
+  float: right;
   width: 50%;
   padding: 40px;
-  margin-top: -2%;
-  margin-left: -20%;
+  margin-top: -17.5%;
+  margin-right: -12%;
+
+
+
+
 
 }
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-.slider{
+.button {
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 3% 2px;
+  cursor: pointer;
+  margin-top: 1%;
+  opacity: 0.5;
+}
+
+.slider {
   width: 700px;
   height: 400px;
   overflow: hidden;
 }
 .middle{
   position: absolute;
-  top: 55%;
+  top: 56%;
   left: 30%;
   transform: translate(-50%,-50%);
 }
@@ -629,6 +712,7 @@ nav .fa{
   transform: translateX(-50%);
   display: flex;
 }
+
 .bar {
   width: 50px;
   height: 10px;
