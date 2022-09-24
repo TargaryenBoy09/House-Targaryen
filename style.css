@@ -185,6 +185,16 @@ nav ul li a::after{
   margin: 10px 3% 40px;
   width: 50%;
 }
+
+.content1{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  transform: translateY(-50%);
+  background: rgb(0,0,0,0.4);
+  margin: 10px 3% 40px;
+  width: 80%;
+}
 .content h4{
   margin: 0px 3% 0px;
 }
@@ -298,6 +308,17 @@ p.paraALL{
   margin-bottom: 2%;
   margin-left: 3%;
 }
+.linkACTION{
+  font-family: 'Roboto-Bold';
+  font-size: x-large;
+  color: ;
+  width: 50%;
+  padding-top: 150px;
+  margin-bottom: 2%;
+  margin-left: 3%;
+  margin-top: -10%;
+}
+
 
 .learnMore:hover{
   cursor: pointer;
