@@ -10,13 +10,13 @@ html {
   scroll-behavior: smooth;
 }
 @font-face {
-  font-family: 'Roboto-Reg';
-  src: url("fonts/roboto-slabs/RobotoSlab-Regular.ttf");
+  font-family: 'Lato-Reg';
+  src: url("fonts/lato/Lato-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto-Bold';
-  src: url("fonts/roboto-slabs/RobotoSlab-Bold.ttf");
+  font-family:'Uni-Black';
+  src: url("fonts/uni sans/Uni Sans Heavy.otf");
 }
 
 .layout{
@@ -45,20 +45,25 @@ html {
 
 
 nav{
-  font-family: 'Roboto-Reg';
+  
+  font-family: 'Lato-Reg';
   letter-spacing: 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
   padding-left: 10%;
-  padding-right: 33%;
+  padding-right: 2%;
 }
 
 nav ul li{
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-small;
 
 }
 
@@ -66,8 +71,14 @@ nav ul li a{
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  font-size: small;
+  font-size: x-small;
+}
 
+/*
+  Github link/icon
+*/
+nav ul i{
+  color: #fff;
 }
 
 a{
@@ -92,36 +103,7 @@ nav ul li a::after{
 /*Logo*/
 .logo{
   color: #bc8f57;
-  font-size: 28px;
-
-}
-
-/*Logo Animation*/
-.logo::after{
-  content: "";
-  animation: appear 5s infinite;
-}
-
-/*Logo keyframes*/
-@keyframes appear{
-  0%{
-    content: "ANIMAL";
-  }
-
-  25%{
-    content: "WELFARE";
-  }
-
-  50%{
-    content: "BY";
-  }
-  75%{
-    content: "HOUSE";
-  }
-
-  100%{
-    content: "TARGARYEN";
-  }
+  font-size: 40px;
 }
 
 /*Overall
@@ -137,56 +119,44 @@ nav ul li a::after{
 }
 
 /*Philippine*/
-h4{
-  font-family: 'Roboto-Bold';
-  font-size: x-large;
-  color: white;
-}
-h3{
-  font-family: 'Roboto-Bold';
-  font-size: 40px;
-  color: white;
-  margin-left:2%;
-}
-h3{
-  font-family: 'Roboto-Reg';
-  font-size: 30px;
-  color: #bc8f57
-}
 h2{
-  font-family: 'Roboto-Reg';
-  font-size: 40px;
-  color: #bc8f57
+  font-family: 'Uni-Black';
+  font-size: 100px;
+  color: #bc8f57;
+}
+
+.line {
+  width: 500px;
+  height: 1px;
+  background-color: white;
 }
 
 /*Eagle*/
 h1{
-  font-family: 'Roboto-Reg';
+  font-family: 'Uni-Black';
   color: #bc8f57;
   margin: -40px -10px -30px;
   font-size: 130px;
   letter-spacing: 5px;
 }
+
 /*Home */
 .paragraphHOME{
+  font-family: 'Lato-Reg';
   color: #fff;
-  font-size: 20px;
+  font-size: 10px;
   padding-top: 30px;
   letter-spacing: 2px;
 }
 p.para1{
   margin-right: 25%;
-  margin-left: ;
-  text-align: justify;
-  text-justify: inter-word;
-
 }
+
 p.para2{
   margin-top: 2%;
   margin-right: 25%;
-  text-align: justify;
-  text-justify: inter-word;
 }
+
 /*Animals-Eagle*/
 .paragraphEAGLE{
   color: #fff;
@@ -234,28 +204,24 @@ p.paraALL{
   padding-top: 50px;
   letter-spacing: 2px;
 }
-
-.link{
-  font-family: 'Roboto-Bold';
-  font-size: x-large;
-  color: #bc8f57;
-  width: 160px;
-  padding-top: 15px;
-  margin-bottom: 2%;
-}
-
-.learnMore:hover{
+.learn-more{
+  font-family: 'Lato-Reg';
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 17px;
+  font-size: small;
+  background: transparent;
+  margin-top: 50px;
+  position: relative;
   cursor: pointer;
 }
 
-.learnMore:hover{
-  font-size: 0;
-}
-
-.learnMore:hover::after{
-  font-family: 'Roboto-Bold';
-  content: attr(data-hover);
-  font-size: x-large;
+.learn-more:hover{
+  cursor: pointer;
+  background-color: #bc8f57;
+  transition: .5s;
 }
 
 .brace1{
@@ -266,209 +232,6 @@ p.paraALL{
 .brace2{
   font-family: 'Roboto-Reg';
   font-size: 20px;
-}
-
-.line1,
-.line2,
-.line3,
-.line4,
-.line5,
-.line6,
-.line7,
-.line8{
-  white-space: nowrap; /* keep text in one line */
-  overflow: hidden; /* hide text behind the cursor */
-  font-family: 'Roboto-Reg';
-}
-
-.line1 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__1 3s steps(100, end) 1s 1 normal both,
-             animated-cursor__1 900ms steps(30, end) 8;
-}
-
-.line2 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-             animated-cursor__2 900ms steps(30, end)5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 4.5s;
-}
-
-.line3 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-             animated-cursor__2 900ms steps(30, end)5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 8s;
-}
-
-.line4 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 11s;
-}
-
-.line5 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 14s;
-}
-
-.line6 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 17s;
-}
-
-.line7 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 21s;
-}
-
-.line8 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) infinite;
-  -webkit-animation-delay: 1s;
-  animation-delay: 24s;
-}
-
-@keyframes animated-cursor__1 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__2 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__3 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__4 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__5 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__6 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__7 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__8 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-text__1 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 30rem;
-  }
-}
-
-@keyframes animated-text__2 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 30rem;
-  }
-}
-
-@keyframes animated-text__3 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__4 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__5 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 20rem;
-  }
-}
-
-@keyframes animated-text__6 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__7 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__8 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
 }
 
 @media screen and (max-width: 600px) {
