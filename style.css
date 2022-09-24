@@ -85,6 +85,13 @@ html {
   height: 100vh;
   width: 100%;
 }
+.layout9{
+  background-image: url("images/sulu.jfif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
 nav{
   font-family: 'Roboto-Reg';
   letter-spacing: 2px;
