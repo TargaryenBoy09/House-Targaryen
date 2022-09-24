@@ -175,6 +175,8 @@ nav ul li a::after{
   top: 55%;
   left: 10%;
   transform: translateY(-50%);
+  background: rgb(0,0,0,0.4);
+  width: 50%;
 }
 
 /*Philippine*/
