@@ -706,6 +706,8 @@ nav .fa{
   width: 250px;
   margin-right: 10px;
   border-radius: 50%;
+  border-style: solid;
+  border-color: #bc8f57;
 }
 .hover-image{
   position: absolute;
