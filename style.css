@@ -4,7 +4,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-
 }
 html {
   scroll-behavior: smooth;
@@ -183,9 +182,18 @@ nav ul li a::after{
   left: 10%;
   transform: translateY(-50%);
   background: rgb(0,0,0,0.4);
+  margin: 10px 3% 40px;
   width: 50%;
 }
-
+.content h4{
+  margin: 0px 3% 0px;
+}
+.content h2{
+  margin: 0px 3% 0px;
+}
+.content p{
+  margin: 0px 3% 0px;
+}
 /*Philippine*/
 h4{
   font-family: 'Roboto-Bold';
@@ -288,6 +296,7 @@ p.paraALL{
   width: 160px;
   padding-top: 15px;
   margin-bottom: 2%;
+  margin-left: 3%;
 }
 
 .learnMore:hover{
@@ -527,6 +536,14 @@ p.paraALL{
   }
 }
 /* About HTML */
+.know-layout{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .about-layout{
   min-height: 100vh;
     width: 100%;
@@ -534,7 +551,7 @@ p.paraALL{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    position: absolute;
 }
 .about-content{
   width: 50%;
@@ -544,6 +561,7 @@ p.paraALL{
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+
 }
 .about-content h1{
   margin: 10px 0 40px;
@@ -556,24 +574,26 @@ p.paraALL{
   color: white;
 }
 .know-content{
-  width: 90%;
+  width: 60%;
   color: white;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  left: 77%;
+  transform: translate(-70%,-40%);
   text-align: right;
+  background: rgb(0,0,0,0.4);
 }
 .know-content h1{
-  margin: 10px 0 40px;
+  margin: 10px 3% 40px;
   font-size: 62px;
 }
 .know-content p{
-  margin: 10px 0 40px;
+  margin: 10px 3% 40px;
   font-size: 14px;
   color: white;
   font-family: 'Roboto-Reg';
 }
+
 .more-btn{
   display: inline-block;
   text-decoration: none;
@@ -625,52 +645,6 @@ nav .fa{
     }
 }
 
-/* --School Campuses-- */
-.university{
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: 'Roboto-Reg';
-  font-size: 20px;
-  color: #bc8f57;
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  /* background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; */
-}
-.university h1{
-  margin: 10px 0 40px;
-  font-size: 62px;
-}
-.university p{
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0 ;
-}
-.university-column{
-  flex-basis: 32%;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  margin: 10px;
-  position: relative;
-  overflow: hidden;
-}
-.university-column img{
-  width: 100%;
-  display: block;
-}
-.row-university{
-  margin-top: 2%;
-  margin-bottom: 2%;
-  display: flex;
-  justify-content: space-between;
-}
 .layer{
   background: transparent;
   height: 100%;
@@ -697,10 +671,10 @@ nav .fa{
   width: 100%;
   font-weight: 500;
   color: white;
-  font-size: 26px;
+  font-size: 20px;
   bottom: 0;
-  left: 30%;
-  transform: translateX(-50%);
+  left: 21%;
+  transform: translate(-50%,40%);
   position: absolute;
   opacity: 0;
   transition: 0.5s;
@@ -918,20 +892,20 @@ nav .fa{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 3% 2px;
   cursor: pointer;
   margin-top: 1%;
   opacity: 0.5;
 }
 
-.slider{
+.slider {
   width: 700px;
   height: 400px;
   overflow: hidden;
 }
 .middle{
   position: absolute;
-  top: 55%;
+  top: 56%;
   left: 30%;
   transform: translate(-50%,-50%);
 }
@@ -942,6 +916,7 @@ nav .fa{
   transform: translateX(-50%);
   display: flex;
 }
+
 .bar {
   width: 50px;
   height: 10px;
