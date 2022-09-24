@@ -690,6 +690,12 @@ nav .fa{
   background-size: cover;
   background-attachment: fixed;
 }
+.tht-column h3{
+  font-family: 'Roboto-Reg';
+  font-size: 30px;
+  color: #bc8f57;
+  margin-left:2%;
+}
 .tht-column{
   width: 60%;
   flex-basis: 44%;
