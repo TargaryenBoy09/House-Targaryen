@@ -693,13 +693,15 @@ nav .fa{
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: center;
-  background: rgb(0,0,0,0.2);
+  background: rgb(0,0,0,0.4);
   padding: 25px;
   display: flex;
   font-family: 'Roboto-Reg';
   font-size: 20px;
   color: white;
   transform: translate(32.5%, 7%);
+  border-style: solid;
+  border-color: #bc8f57;
 }
 .tht-column img{
   height: 250px;
