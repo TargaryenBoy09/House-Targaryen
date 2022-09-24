@@ -6,38 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="x-icon" href="images/logo.png">
+    <!-- source - icons -->
+    <script src="https://kit.fontawesome.com/fc189408a0.js" crossorigin="anonymous"></script>
     <title>House Targaryen</title>
 </head>
 <body>
 
 <div class="layout">
-
     <nav>
-        <h2 class="logo"></h2>
+        <div class="logo">
+            <a href="index.html"><i class="fa-solid fa-dragon"></i> </a>     
+        </div>
+        
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="animals.html">ANIMALS</a></li>
             <li><a href="action.html">TAKE ACTION</a></li>
             <li><a href="about.html">ABOUT US</a></li>
-        </ul>
-
+            
+            <input type="text" placeholder="Search" class="search">     
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </ul>    
     </nav>
+
+    <div  class="video">
+        <video controls width = "228" loop autoplay muted>
+            <source src="images/1.mp4" type="video/mp4">
+        </video>
+        
+    </div>
+
+    <div class="video_2">
+        <video controls width = "228" loop muted>
+            <source src="images/2.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <footer class="footer">
+        <ul>
+            <li><a>Powered by House Targaryen</a></li>
+            <a href="https://github.com/TargaryenBoy09/House-Targaryen" target="_blank"> <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/slu.edu.ph" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            
+        </ul>
+    </footer>
 </div>
 <div class="content">
-    <h4>PHILIPPINE</h4>
-    <h2>Endangered Species</h2>
-    <div class="paragraphHOME">
-        <p class="para1"> The Philippines are home to numerous indigenous and endangered species. More and more indigenous
-            species in the Philippines are becoming endangered over time due to several factors, including natural disasters,
-            pollution, habitat destruction, and destructive human activities. To prevent their extinction, we must safeguard
-            the Philippines' wild creatures. </p>
-        <p class="para2">This blog shows the current list of endangered creatures in the Philippines that would
-            perish if we do not act to save and protect them. </p>
+
+    <div class="tagline">
+        <h2>IF YOU CAN'T BUILD A NEST,</h2>
+        <h2>DON'T DESTROY ONE</h2>
     </div>
-    <div class="link">
-        <a href= "LearnMore.html"  target="_blank">
-            <p>Learn More</p>
-        </a>
+    
+    <div class="paragraphHOME">
+        <p class="para1"> The Philippines are home to numerous indigenous and endangered species. <br> More and more indigenous
+            species in the Philippines are becoming endangered over time due to several factors, including natural disasters,
+            pollution, habitat destruction, and destructive human activities. <br> To prevent their extinction, we must safeguard
+            the Philippines' wild creatures. </p>
+
+        <p class="para2"> This blog shows the current list of endangered creatures <br> in the Philippines would
+            perish if we do not act to save and protect them. </p>
+
+        <a href="KnowMore.html" class="learn-more">LEARN MORE</a>
     </div>
 </div>
 </body>

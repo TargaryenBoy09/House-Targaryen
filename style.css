@@ -9,17 +9,17 @@ html {
   scroll-behavior: smooth;
 }
 @font-face {
-  font-family: 'Roboto-Reg';
-  src: url("fonts/roboto-slabs/RobotoSlab-Regular.ttf");
+  font-family: 'Lato-Reg';
+  src: url("fonts/lato/Lato-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto-Bold';
-  src: url("fonts/roboto-slabs/RobotoSlab-Bold.ttf");
+  font-family: 'Uni-Bold';
+  src: url("fonts/uni sans/Uni Sans Heavy.otf");
 }
 
 .layout{
-  background-image: url("images/banner-img.png");
+  background-image: url("images/1.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -91,15 +91,26 @@ html {
   height: 100vh;
   width: 100%;
 }
+
+
+
+
+
+
+/* --------------------------------------------------------------- */
+/* This section is for the navigator bar, footer, video, and logo */
+
 nav{
-  font-family: 'Roboto-Reg';
+  font-family: 'Lato-Reg';
   letter-spacing: 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
-  padding-left: 10%;
-  padding-right: 33%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 20px;
+  /* border-bottom: 1px solid white; */
 }
 
 nav ul li{
@@ -113,13 +124,8 @@ nav ul li a{
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  font-size: small;
+  font-size: x-small;
 
-}
-
-a{
-  color: #bc8f57;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 nav ul li a:hover:after{
@@ -130,58 +136,90 @@ nav ul li a:hover:after{
 nav ul li a::after{
   display:block;
   content: '';
-  border-bottom: solid 3px #bc8f57;
-  transform: scaleX(0);
+  border-bottom: solid 3px #bc8f57;  
+  transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
   transform-origin:100% 50%
 }
 
-/*Logo*/
-.logo{
-  color: #bc8f57;
-  font-size: 28px;
+nav .logo i{
+  color: white;
+  font-size: 30px;
 
 }
-
-/*Logo Animation*/
-.logo::after{
-  content: "";
-  animation: appear 5s infinite;
+nav ul i{
+  color: #fff;
+  padding: 10px 10px;
 }
 
-/*Logo keyframes*/
-@keyframes appear{
-  0%{
-    content: "ANIMAL";
-  }
-
-  25%{
-    content: "WELFARE";
-  }
-
-  50%{
-    content: "BY";
-  }
-  75%{
-    content: "HOUSE";
-  }
-
-  100%{
-    content: "TARGARYEN";
-  }
+.search{
+  border-radius: 50px;
 }
 
-/*Overall
-  Philippine
-  Eagle
-  Description
-*/
+.video{
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  transition: .5s;
+  
+}
+
+.video_2{
+  position: absolute;
+  bottom: 3%;
+  right: 19%;
+  transition: .5s;
+}
+
+.video_2:hover{
+   transform: scale(1.1);
+  transition: .5s;
+}
+
+.video:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+footer{
+  font-family: 'Lato-Reg';
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 3%;
+  left: 2%;
+}
+
+footer ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+footer ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: x-small;
+}
+
+footer ul i{
+  color: #fff;
+  padding: 10px 10px;
+}
+
+/* --------------------------------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------------------------------- */
+
 .content{
   position: absolute;
   top: 55%;
-  left: 10%;
+  left: 2%;
   transform: translateY(-50%);
-  background: rgb(0,0,0,0.4);
   margin: 10px 3% 40px;
   width: 50%;
 }
@@ -204,53 +242,54 @@ nav ul li a::after{
 .content p{
   margin: 0px 3% 0px;
 }
-/*Philippine*/
-h4{
-  font-family: 'Roboto-Bold';
-  font-size: x-large;
-  color: white;
-}
-h3{
-  font-family: 'Roboto-Bold';
-  font-size: 50px;
-  color: white;
-  margin-left:30%;
-  margin-top: 2%;
-}
-h2{
-  font-family: 'Roboto-Reg';
-  font-size: 40px;
-  color: #bc8f57
+
+/* Tagline - Home*/
+.tagline{
+  font-family: 'Lato-Reg';
+  font-size: 30px;
+  color: #fff;
 }
 
-/*Eagle*/
-h1{
-  font-family: 'Roboto-Reg';
-  color: #bc8f57;
-  margin: -40px -10px -30px;
-  font-size: 130px;
-  letter-spacing: 5px;
+.tagline :nth-child(2){
+  color: #c38438  ;
 }
+
 /*Home */
 .paragraphHOME{
+  font-family: 'Lato-Reg';
   color: #fff;
-  font-size: 20px;
-  padding-top: 30px;
+  font-size: 12px;
+  padding-top: 50px;
   letter-spacing: 2px;
 }
 p.para1{
   margin-right: 25%;
-  margin-left: ;
-  text-align: justify;
-  text-justify: inter-word;
-
 }
+
 p.para2{
   margin-top: 2%;
   margin-right: 25%;
-  text-align: justify;
-  text-justify: inter-word;
 }
+
+.learn-more{
+  font-family: 'Lato-Reg';
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 17px;
+  font-size: small;
+  background: transparent;
+  margin-top: 50px;
+  position: relative;
+  left: 3%;
+}
+
+.learn-more:hover{
+  background-color: #bc8f57;
+  transition: .5s;
+}
+
 /*Animals-Eagle*/
 .paragraphEAGLE{
   color: #fff;
@@ -317,234 +356,6 @@ p.paraALL{
   margin-bottom: 2%;
   margin-left: 3%;
   margin-top: -10%;
-}
-
-
-.learnMore:hover{
-  cursor: pointer;
-}
-
-.learnMore:hover{
-  font-size: 0;
-}
-
-.learnMore:hover::after{
-  font-family: 'Roboto-Bold';
-  content: attr(data-hover);
-  font-size: x-large;
-}
-
-.brace1{
-  font-family: 'Roboto-Reg';
-  font-size: 20px;
-}
-
-.brace2{
-  font-family: 'Roboto-Reg';
-  font-size: 20px;
-}
-
-.line1,
-.line2,
-.line3,
-.line4,
-.line5,
-.line6,
-.line7,
-.line8{
-  white-space: nowrap; /* keep text in one line */
-  overflow: hidden; /* hide text behind the cursor */
-  font-family: 'Roboto-Reg';
-}
-
-.line1 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__1 3s steps(100, end) 1s 1 normal both,
-             animated-cursor__1 900ms steps(30, end) 8;
-}
-
-.line2 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-             animated-cursor__2 900ms steps(30, end)5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 4.5s;
-}
-
-.line3 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-             animated-cursor__2 900ms steps(30, end)5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 8s;
-}
-
-.line4 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 11s;
-}
-
-.line5 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 14s;
-}
-
-.line6 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 17s;
-}
-
-.line7 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) 5;
-  -webkit-animation-delay: 1s;
-  animation-delay: 21s;
-}
-
-.line8 {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
-
-  /* define animation types for text + cursor */
-  animation: animated-text__2 3s steps(100, end) 1s 1 normal both,
-      animated-cursor__2 900ms steps(30, end) infinite;
-  -webkit-animation-delay: 1s;
-  animation-delay: 24s;
-}
-
-@keyframes animated-cursor__1 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__2 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__3 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__4 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__5 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__6 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__7 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-cursor__8 {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-@keyframes animated-text__1 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 30rem;
-  }
-}
-
-@keyframes animated-text__2 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 30rem;
-  }
-}
-
-@keyframes animated-text__3 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__4 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__5 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 20rem;
-  }
-}
-
-@keyframes animated-text__6 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__7 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
-}
-
-@keyframes animated-text__8 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 29rem;
-  }
 }
 
 @media screen and (max-width: 600px) {
