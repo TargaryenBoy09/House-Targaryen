@@ -42,6 +42,13 @@ html {
   width: 100%;
 }
 
+.layout3{
+  background-image: url("images/pigeon.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 00%;
+}
 
 
 nav{
