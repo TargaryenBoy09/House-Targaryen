@@ -179,18 +179,12 @@ footer ul i{
   margin: 20px 3% 20px;
 }
 
-.cont p{
-  font-size: 15px;
-  text-align: left;
-  font-family: "Lato-Reg";
-  color: #fff;
-  position: absolute;
-  top: 10%;
-}
+
 
 .content p{
   margin: 0px 3% 0px;
 }
+
 .content1 {
   position: absolute;
   background: transparent;
@@ -303,18 +297,87 @@ p.para2{
   transition: .5s;
 }
 
+.layout_1{
+  background-image: url("images/3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
 
-.linkACTION a h2{
+.ways{
+  position: absolute;
+  top: 45%;
+  left: 3%;
+}
+
+.ways h4{
   font-family: 'Uni-Bold';
+  color: white;
+}
+.linkACTION{
+  position: absolute;
+  text-align: right;
+  /* background-color: rgb(0,0,0,0.4); */
+  padding: 10px;
+  width: 15%;
+  bottom: 3%;
+  right: 2%;
+  /* background-color: #c38438; */
+}
+
+.linkACTION a{
+  font-family: 'Uni-Bold';
+  color: #fff;
   font-size: large;
-  bottom: 1%;
-  left: 2%;
+}
+
+.linkACTION h4{
+  font-family: 'Lato-Reg';
+  color: #fff;
+}
+
+.link_action{
+  position: absolute;
+  top: 30%;
+  left: 3%;
 }
 
 .link_action h2{
+  font-family: 'Uni-Bold';
+  font-size: 40px;
+}
+
+.link_action{
   font-family: 'Lato-Reg';
+  color: #fff;
   position: absolute;
-  right: 100%;
+}
+
+.lnkact{
+  font-family: 'Uni-Bold';
+  color: white;
+  position: absolute;
+  text-align: right;
+  /* background-color: rgb(0,0,0,0.4); */
+  padding: 10px;
+  width: 15%;
+  bottom: 50%;
+  right: 2%;
+}
+.cont {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+
+}
+.cont p{
+  width: 30%;
+  font-size: 12px;
+  text-align: left ;
+  font-family: "Lato-Reg";
+  color: #fff;
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -359,22 +422,23 @@ p.para2{
   font-size: 62px;
 }
 .about-content p{
-  font-family: 'Roboto-Reg';
+  font-family: 'Lato-Reg';
   margin: 10px 0 40px;
   font-size: 20px;
   color: white;
 }
 .know-content{
   width: 60%;
-  color: white;
   position: absolute;
   top: 50%;
   left: 77%;
   transform: translate(-70%,-40%);
   text-align: right;
-  background: rgb(0,0,0,0.4);
+  /* background: rgb(0,0,0,0.4); */
 }
 .know-content h1{
+  font-family: 'Uni-Bold';
+  color: #fff;
   margin: 10px 3% 40px;
   font-size: 62px;
 }
@@ -382,7 +446,7 @@ p.para2{
   margin: 10px 3% 40px;
   font-size: 18px;
   color: white;
-  font-family: 'Roboto-Reg';
+  font-family: 'Lato-Reg';
 }
 
 .more-btn{
