@@ -297,6 +297,38 @@ p.para2{
   transition: .5s;
 }
 
+
+/*Animals-Eagle*/
+
+.content h4{
+  font-family: 'Uni-Bold';
+  color: white;
+  font-size: 50px;
+}
+.paragraphEAGLE{
+  color: #fff;
+  font-family: 'Lato-Reg';
+  font-size: 12px;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+p.paraEAGLE1{
+  margin-right: 25%;
+  text-align: left;
+  text-justify: inter-word;
+}
+p.paraEAGLE1{
+  margin-right: 25%;
+  text-align: left;
+  text-justify: inter-word;
+}
+p.paraEAGLE2{
+  margin-top: 2%;
+  margin-right: 25%;
+  text-align: left;
+  text-justify: inter-word;
+}
+
 .layout_1{
   background-image: url("images/3.jpg");
   background-size: cover;
