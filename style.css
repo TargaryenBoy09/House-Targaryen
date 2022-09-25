@@ -344,7 +344,7 @@ p.para2{
 .about-content p{
   font-family: 'Roboto-Reg';
   margin: 10px 0 40px;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
 }
 .know-content{
@@ -363,7 +363,7 @@ p.para2{
 }
 .know-content p{
   margin: 10px 3% 40px;
-  font-size: 14px;
+  font-size: 18px;
   color: white;
   font-family: 'Roboto-Reg';
 }
