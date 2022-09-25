@@ -207,6 +207,10 @@ footer ul i{
   bottom: 49%;
   opacity: 1;
 }
+.content1:hover h5{
+  bottom: 49%;
+  opacity: 1;
+}
 .content1:hover p{
   bottom: 49%;
   opacity: 1;
@@ -231,7 +235,18 @@ footer ul i{
   font-size: 25px;
   bottom: 0;
   left: 20%;
-  transform: translate(-20%,200%);
+  transform: translate(-20%,280%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  text-align: left;
+}
+.content1 h5{
+  width: 60%;
+  font-size: 25px;
+  bottom: 0;
+  left: 20%;
+  transform: translate(5%,280%);
   position: absolute;
   opacity: 0;
   transition: 0.5s;
@@ -598,7 +613,19 @@ nav .fa{
 }
 
 /* --Who are we?-- */
-
+.tht1{
+  width: 100%;
+  margin: auto;
+  padding-top: 625px;
+  text-align: center;
+  font-family: 'Roboto-Reg';
+  font-size: 20px;
+  color: #bc8f57;
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .tht{
   width: 100%;
   margin: auto;
@@ -795,7 +822,7 @@ nav .fa{
   position: absolute;
   bottom: 20px;
   left: 50%;
-  transform: translate(100%,-2100%);
+  transform: translate(100%,-1950%);
   display: flex;
 }
 .bar {
@@ -858,9 +885,27 @@ input[name = "r"]{
 }#r10:checked ~ .s6{
    margin-left: -80%;
  }
+#r11:checked ~ .s11{
+  margin-left: -0%;
+}
+#r12:checked ~ .s11{
+  margin-left: -20%;
+}
 
- 
- @media screen and (max-width: 700px){
+#r13:checked ~ .s11{
+  margin-left: -40%;
+}
+
+#r14:checked ~ .s11{
+  margin-left: -60%;
+}
+
+#r15:checked ~ .s11{
+  margin-left: -80%;
+}
+
+
+@media screen and (max-width: 700px){
   /* Know More Media */
   .tht{
     width: 100%;
