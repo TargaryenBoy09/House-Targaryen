@@ -30,21 +30,21 @@ html {
 /* This section is for the navigator bar, footer, video, and logo */
 nav{
   font-family: 'Lato-Reg';
-  letter-spacing: 2px;
+  letter-spacing: 0.384vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 7.692vh;
   padding-left: 3%;
   padding-right: 3%;
-  padding-bottom: 20px;
+  padding-bottom: 3.846vh;
   /* border-bottom: 1px solid white; */
 }
 
 nav ul li{
   list-style-type: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1.923vh 3.846vh;
 
 }
 
@@ -72,16 +72,16 @@ nav ul li a::after{
 
 nav .logo i{
   color: white;
-  font-size: 30px;
+  font-size: 5.769vh;
 
 }
 nav ul i{
   color: #fff;
-  padding: 10px 10px;
+  padding: 1.923vh 1.923vh;
 }
 
 .search{
-  border-radius: 50px;
+  border-radius: 9.6153vh;
 }
 
 .video{
@@ -111,7 +111,7 @@ nav ul i{
 
 footer{
   font-family: 'Lato-Reg';
-  letter-spacing: 2px;
+  letter-spacing: 0.384vh;
   position: absolute;
   bottom: 3%;
   left: 2%;
@@ -120,7 +120,7 @@ footer{
 footer ul li{
   list-style-type: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1.923vh 3.846vh;
 }
 
 footer ul li a{
@@ -131,7 +131,7 @@ footer ul li a{
 
 footer ul i{
   color: #fff;
-  padding: 10px 10px;
+  padding: 1.923vh 1.923vh;
 }
 
 /* --------------------------------------------------------------- */
@@ -148,7 +148,7 @@ footer ul i{
   top: 55%;
   left: 2%;
   transform: translateY(-50%);
-  margin: 10px 3% 40px;
+  margin: 1.923vh 3% 7.692vh;
   width: 50%;
 }
 .content h4{
@@ -162,7 +162,7 @@ footer ul i{
 .content h5{
   width: 60%;
   color: #bc8f57;
-  font-size: 30px;
+  font-size: 5.769vh;
   bottom: 0;
   left: 20%;
   transform: translate(-20%,-300%);
@@ -176,7 +176,7 @@ footer ul i{
   font-family: 'Uni-Bold';
   text-align: left;
   font-size: 25px;
-  margin: 20px 3% 20px;
+  margin: 3.846vh 3% 3.846vh;
 }
 
 
@@ -215,7 +215,7 @@ footer ul i{
   width: 60%;
   color: #bc8f57;
   font-family: 'Uni-Bold';
-  font-size: 50px;
+  font-size: 9.6153vh;
   bottom: 0;
   left: 20%;
   top: 40%;
@@ -240,7 +240,7 @@ footer ul i{
   width: 50%;
   color: white;
   font-family: 'Lato-Reg';
-  font-size: 12px;
+  font-size: 2.3076vh;
   bottom: 0;
   left: 20%;
   transform: translate(-24%, 20%);
@@ -253,7 +253,7 @@ footer ul i{
 /* Tagline - Home*/
 .tagline{
   font-family: 'Lato-Reg';
-  font-size: 30px;
+  font-size: 5.769vh;
   color: #fff;
 }
 
@@ -265,9 +265,9 @@ footer ul i{
 .paragraphHOME{
   font-family: 'Lato-Reg';
   color: #fff;
-  font-size: 12px;
-  padding-top: 50px;
-  letter-spacing: 2px;
+  font-size: 2.3076vh;
+  padding-top: 9.6153vh;
+  letter-spacing: 0.384vh;
 }
 p.para1{
   margin-right: 25%;
@@ -287,7 +287,7 @@ p.para2{
   padding: 6px 17px;
   font-size: small;
   background: transparent;
-  margin-top: 50px;
+  margin-top: 9.6153vh;
   position: relative;
   left: 3%;
 }
@@ -303,14 +303,14 @@ p.para2{
 .content h4{
   font-family: 'Uni-Bold';
   color: white;
-  font-size: 50px;
+  font-size: 9.6153vh;
 }
 .paragraphEAGLE{
   color: #fff;
   font-family: 'Lato-Reg';
-  font-size: 12px;
-  padding-top: 30px;
-  letter-spacing: 2px;
+  font-size: 2.3076vh;
+  padding-top: 5.769vh;
+  letter-spacing: 0.384vh;
 }
 p.paraEAGLE1{
   margin-right: 25%;
@@ -351,7 +351,7 @@ p.paraEAGLE2{
   position: absolute;
   text-align: right;
   /* background-color: rgb(0,0,0,0.4); */
-  padding: 10px;
+  padding: 1.923vh;
   width: 15%;
   bottom: 3%;
   right: 2%;
@@ -377,7 +377,7 @@ p.paraEAGLE2{
 
 .link_action h2{
   font-family: 'Uni-Bold';
-  font-size: 40px;
+  font-size: 7.692vh;
 }
 
 .link_action{
@@ -392,7 +392,7 @@ p.paraEAGLE2{
   position: absolute;
   text-align: right;
   /* background-color: rgb(0,0,0,0.4); */
-  padding: 10px;
+  padding: 1.923vh;
   width: 15%;
   bottom: 65%;
   right: 2%;
@@ -405,7 +405,7 @@ p.paraEAGLE2{
 }
 .cont p{
   width: 30%;
-  font-size: 12px;
+  font-size: 2.3076vh;
   text-align: left ;
   font-family: "Lato-Reg";
   color: #fff;
@@ -450,13 +450,13 @@ p.paraEAGLE2{
 
 }
 .about-content h1{
-  margin: 10px 0 40px;
-  font-size: 62px;
+  margin: 1.923vh 0 7.692vh;
+  font-size: 11.923vh;
 }
 .about-content p{
   font-family: 'Lato-Reg';
-  margin: 10px 0 40px;
-  font-size: 20px;
+  margin: 1.923vh 0 7.692vh;
+  font-size: 3.846vh;
   color: white;
 }
 .know-content{
@@ -471,11 +471,11 @@ p.paraEAGLE2{
 .know-content h1{
   font-family: 'Uni-Bold';
   color: #fff;
-  margin: 10px 3% 40px;
-  font-size: 62px;
+  margin: 1.923vh 3% 7.692vh;
+  font-size: 11.923vh;
 }
 .know-content p{
-  margin: 10px 3% 40px;
+  margin: 1.923vh 3% 7.692vh;
   font-size: 18px;
   color: white;
   font-family: 'Lato-Reg';
@@ -486,7 +486,7 @@ p.paraEAGLE2{
   text-decoration: none;
   color: white;
   border: 1px solid white;
-  padding: 12px 34px;
+  padding: 2.3076vh 6.538vh;
   font-size: 13px;
   background: transparent;
   position: relative;
@@ -514,11 +514,11 @@ nav .fa{
       position: absolute;
   }
     .text-box h1{
-        font-size: 20px;
+        font-size: 3.846vh;
     }
     .about-content p{
       font-family: 'Lato-Reg';
-      margin: 10px 0 40px;
+      margin: 1.923vh 0 7.692vh;
       font-size: 15px;
       color: white;
     }
@@ -539,12 +539,12 @@ nav .fa{
     nav .fa{
         display: block;
         color: white;
-        margin: 10px;
+        margin: 1.923vh;
         font-size: 22px;
         cursor: pointer;
     }
     .nav-links ul{
-        padding: 30px;
+        padding: 5.769vh;
 
     }
     /* About Us Media */
@@ -575,7 +575,7 @@ nav .fa{
   width: 100%;
   font-weight: 500;
   color: white;
-  font-size: 20px;
+  font-size: 3.846vh;
   bottom: 0;
   left: 21%;
   transform: translate(-20%,40%);
@@ -604,7 +604,7 @@ nav .fa{
   padding-top: 100px;
   text-align: center;
   font-family: 'Roboto-Reg';
-  font-size: 20px;
+  font-size: 3.846vh;
   color: #bc8f57;
   background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
   background-position: center;
@@ -613,21 +613,21 @@ nav .fa{
 }
 .tht-column h3{
   font-family: 'Roboto-Reg';
-  font-size: 30px;
+  font-size: 5.769vh;
   color: #bc8f57;
   margin-left:2%;
 }
 .tht-column{
   width: 60%;
   flex-basis: 44%;
-  border-radius: 10px;
+  border-radius: 1.923vh;
   margin-bottom: 5%;
   text-align: center;
   background: rgb(0,0,0,0.4);
   padding: 25px;
   display: flex;
   font-family: 'Roboto-Reg';
-  font-size: 20px;
+  font-size: 3.846vh;
   color: white;
   transform: translate(32.5%, 7%);
   border-style: solid;
@@ -639,23 +639,23 @@ nav .fa{
   color: #bc8f57;
 }
 .tht-column img{
-  height: 250px;
-  width: 250px;
-  margin-right: 10px;
+  height: 29.6153vh;
+  width: 29.6153vh;
+  margin-right: 1.923vh;
   border-radius: 50%;
   border-style: solid;
   border-color: #bc8f57;
 }
 .hover-image{
   position: absolute;
-  height: 250px;
-  width: 250px;
+  height: 29.6153vh;
+  width: 29.6153vh;
   color: #fff;
 }
 .hover-image img{
   position: absolute;
-  height: 250px;
-  width: 250px;
+  height: 29.6153vh;
+  width: 29.6153vh;
   left: 0;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -671,7 +671,7 @@ nav .fa{
   display: inline-flex;
 }
 .wrapper .icon{
-  margin: 10px 20px;
+  margin: 1.923vh 3.846vh;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -689,7 +689,7 @@ nav .fa{
   background: #000000;
   text-align: center;
   border-radius: 50%;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1.923vh 1.923vh rgba(0,0,0,0.1);
 }
 .wrapper .icon span i{
   font-size: 25px;
@@ -698,11 +698,11 @@ nav .fa{
 .wrapper .icon .tooltip{
   top: 0px;
   background: #fff;
-  font-size: 20px;
+  font-size: 3.846vh;
   color: #fff;
-  padding: 10px 18px;
+  padding: 1.923vh 18px;
   border-radius: 25px;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1.923vh 1.923vh rgba(0,0,0,0.1);
   pointer-events: none;
   opacity:0;
   position: absolute;
@@ -760,7 +760,7 @@ nav .fa{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 3% 2px;
+  margin: 4px 3% 0.384vh;
   cursor: pointer;
   margin-top: 1%;
   opacity: 0.5;
@@ -785,14 +785,14 @@ nav .fa{
 }
 .navigation{
   position: absolute;
-  bottom: 20px;
+  bottom: 3.846vh;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
 }
 
 .bar {
-  width: 50px;
+  width: 9.6153vh;
   height: 15px;
   border: 3px solid #ffffff;
   margin: 6px;
@@ -861,7 +861,7 @@ input[name = "r"]{
     padding-top: 100px;
     text-align: center;
     font-family: 'Roboto-Reg';
-    font-size: 20px;
+    font-size: 3.846vh;
     color: #bc8f57;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Stray-Cat.jpg);
     background-position: center;
