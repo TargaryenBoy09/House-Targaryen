@@ -111,9 +111,16 @@ nav ul i{
 
 footer{
   font-family: 'Lato-Reg';
+<<<<<<< HEAD
   letter-spacing: 0.384vh;
   position: absolute;
   bottom: 3%;
+=======
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+>>>>>>> fb6ae0682d7e891c3266138241b024ec2c69a854
   left: 2%;
 }
 
@@ -240,7 +247,11 @@ footer ul i{
   width: 50%;
   color: white;
   font-family: 'Lato-Reg';
+<<<<<<< HEAD
   font-size: 2.3076vh;
+=======
+  font-size: 3.0769vh;
+>>>>>>> fb6ae0682d7e891c3266138241b024ec2c69a854
   bottom: 0;
   left: 20%;
   transform: translate(-24%, 20%);
@@ -368,7 +379,7 @@ p.paraEAGLE2{
   font-family: 'Lato-Reg';
   color: #fff;
 }
-
+ /* Action HTML */
 .link_action{
   position: absolute;
   top: 20%;
@@ -404,23 +415,25 @@ p.paraEAGLE2{
 
 }
 .cont p{
+<<<<<<< HEAD
   width: 30%;
   font-size: 2.3076vh;
+=======
+  width: 35%;
+  font-size: 12px;
+>>>>>>> fb6ae0682d7e891c3266138241b024ec2c69a854
   text-align: left ;
   font-family: "Lato-Reg";
   color: #fff;
 
 }
 
-@media screen and (max-width: 600px) {
-  .layout{
-    background-image: url("images/banner-img.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-  }
+
+@media screen and (max-width: 700px) {
+  /* Action HTML Media */
+
 }
+
 /* About HTML */
 .know-layout{
   min-height: 100vh;
@@ -466,7 +479,7 @@ p.paraEAGLE2{
   left: 77%;
   transform: translate(-70%,-40%);
   text-align: right;
-  /* background: rgb(0,0,0,0.4); */
+  background: rgb(0,0,0,0.4);
 }
 .know-content h1{
   font-family: 'Uni-Bold';
@@ -635,7 +648,7 @@ nav .fa{
 }
 .tht-column h5{
   font-family: 'Roboto-Reg';
-  font-size: 16px;
+  font-size: 3.0769vh;
   color: #bc8f57;
 }
 .tht-column img{
@@ -759,7 +772,7 @@ nav .fa{
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 3.0769vh;
   margin: 4px 3% 0.384vh;
   cursor: pointer;
   margin-top: 1%;
@@ -790,7 +803,13 @@ nav .fa{
   transform: translateX(-50%);
   display: flex;
 }
-
+.bg-navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(100%,-2100%);
+  display: flex;
+}
 .bar {
   width: 9.6153vh;
   height: 15px;
