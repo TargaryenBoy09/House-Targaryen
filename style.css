@@ -19,7 +19,7 @@ html {
 }
 
 .layout{
-  background-image: url("images/1.jpg");
+  background-image: url("images/3.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -171,29 +171,23 @@ footer ul i{
   transition: 0.5s;
   text-align: left;
 }
-.cont{
-  position: absolute;
-  top: 55%;
-  left: 2%;
-  transform: translate(70%,-57%);
-  margin: 10px 3% 40px;
-  width: 100%;
-  text-align: justify;
-  background: rgb(0,0,0,0.7);
-}
+
 .cont h4{
-  text-align: center;
+  font-family: 'Uni-Bold';
+  text-align: left;
   font-size: 25px;
   margin: 20px 3% 20px;
-  color: #bc8f57;
 }
+
 .cont p{
-  margin: 20px 3% 20px;
   font-size: 15px;
   text-align: left;
-  font-family: "Comic Sans MS";
+  font-family: "Lato-Reg";
   color: #fff;
+  position: absolute;
+  top: 10%;
 }
+
 .content p{
   margin: 0px 3% 0px;
 }
@@ -226,9 +220,11 @@ footer ul i{
 .content1 h2{
   width: 60%;
   color: #bc8f57;
-  font-size: 30px;
+  font-family: 'Uni-Bold';
+  font-size: 50px;
   bottom: 0;
   left: 20%;
+  top: 40%;
   transform: translate(-20%,-300%);
   position: absolute;
   opacity: 0;
@@ -249,7 +245,8 @@ footer ul i{
 .content1 p{
   width: 50%;
   color: white;
-  font-size: 20px;
+  font-family: 'Lato-Reg';
+  font-size: 12px;
   bottom: 0;
   left: 20%;
   transform: translate(-24%, 20%);
@@ -306,33 +303,18 @@ p.para2{
   transition: .5s;
 }
 
-/*Animals-Eagle*/
-.paragraphEAGLE{
-  color: #fff;
-  font-size: 20px;
-  padding-top: 30px;
-  letter-spacing: 2px;
+
+.linkACTION a h2{
+  font-family: 'Uni-Bold';
+  font-size: large;
+  bottom: 1%;
+  left: 2%;
 }
 
-/*Default-Paragraph*/
-.link{
-  font-family: 'Roboto-Bold';
-  font-size: x-large;
-  color: #bc8f57;
-  width: 160px;
-  padding-top: 15px;
-  margin-bottom: 2%;
-  margin-left: 3%;
-}
-.linkACTION{
-  font-family: 'Roboto-Bold';
-  font-size: x-large;
-  color: #bc8f57;
-  width: 50%;
-  padding-top: 150px;
-  margin-bottom: 2%;
-  margin-left: 3%;
-  margin-top: -10%;
+.link_action h2{
+  font-family: 'Lato-Reg';
+  position: absolute;
+  right: 100%;
 }
 
 @media screen and (max-width: 600px) {
