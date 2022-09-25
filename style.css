@@ -416,7 +416,23 @@ p.paraEAGLE2{
 
 @media screen and (max-width: 700px) {
   /* Action HTML Media */
-
+  .action-layout{
+    overflow-x: hidden;
+    min-height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Stray-Cat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    position: absolute;
+  }
+  .link_action h2{
+  font-size: 30px;
+  text-align: center;
+  }
+  .cont p{
+    text-align: center;
+  }
 }
 
 /* About HTML */
