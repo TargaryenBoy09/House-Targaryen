@@ -368,7 +368,7 @@ p.paraEAGLE2{
   font-family: 'Lato-Reg';
   color: #fff;
 }
-
+ /* Action HTML */
 .link_action{
   position: absolute;
   top: 20%;
@@ -412,15 +412,12 @@ p.paraEAGLE2{
 
 }
 
-@media screen and (max-width: 600px) {
-  .layout{
-    background-image: url("images/banner-img.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-  }
+
+@media screen and (max-width: 700px) {
+  /* Action HTML Media */
+
 }
+
 /* About HTML */
 .know-layout{
   min-height: 100vh;
