@@ -470,8 +470,25 @@ nav .fa{
   display: none;
 }
 @media(max-width: 700px){
+  /* About Us Media */
+    .about-layout{
+      overflow-x: hidden;
+      min-height: 100%;
+      width: 100%;
+      background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Stray-Cat.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: scroll;
+      position: absolute;
+  }
     .text-box h1{
         font-size: 20px;
+    }
+    .about-content p{
+      font-family: 'Lato-Reg';
+      margin: 10px 0 40px;
+      font-size: 15px;
+      color: white;
     }
     .nav-links ul li{
         display: block;
@@ -498,6 +515,7 @@ nav .fa{
         padding: 30px;
 
     }
+    /* About Us Media */
 }
 
 .layer{
@@ -802,4 +820,21 @@ input[name = "r"]{
    margin-left: -80%;
  }
 
-
+ 
+ @media screen and (max-width: 700px){
+  /* Know More Media */
+  .tht{
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Roboto-Reg';
+    font-size: 20px;
+    color: #bc8f57;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Stray-Cat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* Know More Media */
+ }
