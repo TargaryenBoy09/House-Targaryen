@@ -25,81 +25,9 @@ html {
   height: 100vh;
   width: 100%;
 }
-.layout1{
-  background-image: url("images/tamaraw.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-
-.layout2{
-  background-image: url("images/tarsier\(2\).jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-
-.layout3{
-  background-image: url("images/bleeding.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-
-.layout4{
-  background-image: url("images/walden.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-.layout5{
-  background-image: url("images/crocodile.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-.layout6{
-  background-image: url("images/calamian.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-.layout7{
-  background-image: url("images/bat.png");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-.layout8{
-  background-image: url("images/brownDove.jfif");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-.layout9{
-  background-image: url("images/sulu.jfif");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
-
-
-
-
-
 
 /* --------------------------------------------------------------- */
 /* This section is for the navigator bar, footer, video, and logo */
-
 nav{
   font-family: 'Lato-Reg';
   letter-spacing: 2px;
@@ -350,47 +278,8 @@ p.para2{
   padding-top: 30px;
   letter-spacing: 2px;
 }
-p.paraEAGLE1{
-  margin-right: 25%;
-  margin-left: ;
-  text-align: justify;
-  text-justify: inter-word;
-}
-p.paraEAGLE1{
-  margin-right: 25%;
-  margin-left: ;
-  text-align: justify;
-  text-justify: inter-word;
-}
-p.paraEAGLE2{
-  margin-top: 2%;
-  margin-right: 25%;
-  text-align: justify;
-  text-justify: inter-word;
-}
 
 /*Default-Paragraph*/
-.paragraphALL{
-  color: #fff;
-  font-size: 15px;
-  padding-top: 30px;
-  letter-spacing: 2px;
-}
-p.paraALL{
-  margin-right: 15%;
-  margin-left: ;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-/*Ph Eagle description*/
-.paragraph{
-  color: #fff;
-  font-size: 13px;
-  padding-top: 50px;
-  letter-spacing: 2px;
-}
-
 .link{
   font-family: 'Roboto-Bold';
   font-size: x-large;
@@ -403,7 +292,7 @@ p.paraALL{
 .linkACTION{
   font-family: 'Roboto-Bold';
   font-size: x-large;
-  color: ;
+  color: #bc8f57;
   width: 50%;
   padding-top: 150px;
   margin-bottom: 2%;
@@ -726,42 +615,6 @@ nav .fa{
 .wrapper .Github:hover .tooltip,
 .wrapper .Github:hover .tooltip:before{
   background: #333;
-}
-
-/*Animals-2column*/
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.column1 {
-  float: left;
-  width: 50%;
-  padding: 40px;
-  margin-top: -2%;
-  margin-left:10%;
-
-}
-.column2 {
-  float: middle;
-  width: 50%;
-  padding: 40px;
-  margin-top: -17.5%;
-  margin-left: 37%;
-
-}
-.column3 {
-  float: right;
-  width: 50%;
-  padding: 40px;
-  margin-top: -17.5%;
-  margin-right: -12%;
-
-
-
-
-
 }
 .row:after {
   content: "";
