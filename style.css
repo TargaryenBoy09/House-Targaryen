@@ -8,6 +8,19 @@
 html {
   scroll-behavior: smooth;
 }
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #bc8f57;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:#bc8f57;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #fff;  /* creates padding around scroll thumb */
+}
 @font-face {
   font-family: 'Lato-Reg';
   src: url("fonts/lato/Lato-Regular.ttf");
@@ -25,7 +38,13 @@ html {
   height: 100vh;
   width: 100%;
 }
-
+.animals-layout{
+  background-image: url("images/black.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
 /* --------------------------------------------------------------- */
 /* This section is for the navigator bar, footer, video, and logo */
 nav{
@@ -299,7 +318,7 @@ p.para2{
   display: inline-block;
   text-decoration: none;
   color: white;
-  border: 1px solid white;
+  border: 3px solid #bc8f57;
   padding: 6px 17px;
   font-size: small;
   background: transparent;
@@ -309,6 +328,7 @@ p.para2{
 }
 
 .learn-more:hover{
+  border: 3px solid #fff;
   background-color: #bc8f57;
   transition: .5s;
 }
@@ -333,11 +353,7 @@ p.paraEAGLE1{
   text-align: left;
   text-justify: inter-word;
 }
-p.paraEAGLE1{
-  margin-right: 25%;
-  text-align: left;
-  text-justify: inter-word;
-}
+
 p.paraEAGLE2{
   margin-top: 2%;
   margin-right: 25%;
@@ -345,13 +361,7 @@ p.paraEAGLE2{
   text-justify: inter-word;
 }
 
-.layout_1{
-  background-image: url("images/3.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-}
+
 /* Action HTML */
 .action-layout{
   min-height: 100vh;
@@ -369,7 +379,7 @@ p.paraEAGLE2{
 }
 .ways-action h4{
   font-family: 'Uni-Bold';
-  color: white;
+  color: #ffffff;
 }
 .linksACTION{
   position: absolute;
@@ -379,12 +389,13 @@ p.paraEAGLE2{
   width: 15%;
   bottom: 3%;
   right: 2%;
+  z-index: 1;
   /* background-color: #c38438; */
 }
 
 .linksACTION a{
   font-family: 'Uni-Bold';
-  color: #fff;
+  color: #bc8f57;
   font-size: large;
 }
 
@@ -401,6 +412,7 @@ p.paraEAGLE2{
 .link_actions h2{
   font-family: 'Uni-Bold';
   font-size: 40px;
+  color: #bc8f57;
 }
 
 .link_actions{
@@ -411,7 +423,7 @@ p.paraEAGLE2{
 
 .link-act{
   font-family: 'Uni-Bold';
-  color: white;
+  color: #fff;
   position: absolute;
   text-align: right;
   padding: 10px;
@@ -434,91 +446,6 @@ p.paraEAGLE2{
 
 }
 
-@media screen and (max-width: 700px) {
-  /* Action Media*/
-  .action-layout{
-    overflow-x: hidden;
-    min-height: 100%;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Baby-SeaTurtle.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: absolute;
-  }
-  .link_actions h2{
-    font-family: 'Uni-Bold';
-    font-size: 50px;
-    color: skyblue;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    top: -50px;
-    margin: 5px;
-  }
-  .link-act{
-    font-family: 'Uni-Bold';
-    font-size: 20px;
-    color: skyblue;
-    position: absolute;
-    text-align: center;
-    padding: 5px;
-    width: 100%;
-    bottom: -400px;
-    margin: 20px;
-    right: -20px;
-  }
-  .linksACTION{
-    position: relative;
-    text-align: center;
-    /* background-color: rgb(0,0,0,0.4); */
-    padding: 10px;
-    width: 100%;
-    bottom: -2000px;
-    right: 0;
-    /* background-color: #c38438; */
-  }
-  
-  .linksACTION a{
-    font-family: 'Uni-Bold';
-    color: gold;
-    font-size: large;
-  }
-  
-  .linksACTION h4{
-    font-family: 'Lato-Reg';
-    color: gold;
-  }
-  .ways-action h4{
-    font-family: 'Uni-Bold';
-    font-size: 20px;
-    color: skyblue;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    bottom: -20px;
-    margin: 15px;
-  }
-  .content-action {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .content-action p{
-    font-family: 'Uni-Bold';
-    text-align: center ;
-    color: white;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    width: 350px;
-    font-size: 15px;
-    letter-spacing: 2px;
-    line-height: 25px;
-    bottom: -250px;
-    left: 25px;
-  }
-}
 /* About HTML */
 .know-layout{
   min-height: 100vh;
@@ -539,7 +466,7 @@ p.paraEAGLE2{
 }
 .about-content{
   width: 50%;
-  color: white;
+  color: #bc8f57;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -558,17 +485,17 @@ p.paraEAGLE2{
   color: white;
 }
 .know-content{
-  width: 60%;
+  width: 40%;
   position: absolute;
   top: 50%;
   left: 77%;
-  transform: translate(-70%,-40%);
+  transform: translate(-55%,-40%);
   text-align: right;
   background: rgb(0,0,0,0.4);
 }
 .know-content h1{
   font-family: 'Uni-Bold';
-  color: #fff;
+  color: #bc8f57;
   margin: 10px 3% 40px;
   font-size: 62px;
 }
@@ -583,7 +510,7 @@ p.paraEAGLE2{
   display: inline-block;
   text-decoration: none;
   color: white;
-  border: 1px solid white;
+  border: 3px solid #bc8f57;
   padding: 12px 34px;
   font-size: 13px;
   background: transparent;
@@ -591,62 +518,15 @@ p.paraEAGLE2{
   cursor: pointer;
 }
 .more-btn:hover{
-  border: 1px solid orange;
-  background: orange;
+  border: 3px solid #ffffff;
+  background: #bc8f57;
   transition: 1s;
 }
 
 nav .fa{
   display: none;
 }
-@media(max-width: 700px){
-  /* About Us Media */
-    .about-layout{
-      overflow-x: hidden;
-      min-height: 100%;
-      width: 100%;
-      background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Stray-Cat.jpg);
-      background-position: center;
-      background-size: cover;
-      background-attachment: scroll;
-      position: absolute;
-  }
-    .text-box h1{
-        font-size: 20px;
-    }
-    .about-content p{
-      font-family: 'Lato-Reg';
-      margin: 10px 0 40px;
-      font-size: 15px;
-      color: white;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background: skyblue;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav .fa{
-        display: block;
-        color: white;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-    .nav-links ul{
-        padding: 30px;
 
-    }
-    /* About Us Media */
-}
 
 .layer{
   background: transparent;
@@ -695,7 +575,7 @@ nav .fa{
 }
 
 /* --Who are we?-- */
-.tht1{
+.tht2{
   width: 100%;
   margin: auto;
   padding-top: 625px;
@@ -703,7 +583,18 @@ nav .fa{
   font-family: 'Roboto-Reg';
   font-size: 20px;
   color: #bc8f57;
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.tht1{
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Roboto-Reg';
+  font-size: 20px;
+  color: #bc8f57;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -720,6 +611,7 @@ nav .fa{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  position: absolute;
 }
 .tht-column h3{
   font-family: 'Roboto-Reg';
@@ -788,6 +680,7 @@ nav .fa{
   justify-content: center;
   flex-direction: column;
   position: relative;
+  color: white;
   z-index: 2;
   transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
@@ -986,21 +879,346 @@ input[name = "r"]{
   margin-left: -80%;
 }
 
+@media(max-width: 990px){
+  .nav-links{
+    position: fixed;
+    background: linear-gradient(rgba(4,9,30,0.9), rgba(4,9,30,0.9));
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa{
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul{
+    padding: 30px;
+  }
 
-@media screen and (max-width: 700px){
-  /* Know More Media */
-  .tht{
+}
+/*Animals media*/
+@media (max-width: 990px){
+  .animals-layout{
+    background-image: url("images/black.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .tht2{
     width: 100%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 850px;
     text-align: center;
     font-family: 'Roboto-Reg';
     font-size: 20px;
     color: #bc8f57;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Stray-Cat.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
-  /* Know More Media */
- }
+  .tht1{
+    width: 100%;
+    margin: auto;
+
+    text-align: center;
+    font-family: 'Roboto-Reg';
+    font-size: 20px;
+    color: #bc8f57;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .content1 h2{
+    width: 80%;
+    color: #bc8f57;
+    font-family: 'Uni-Bold';
+    font-size: 50px;
+    bottom: 0;
+    left: 20%;
+    top: 40%;
+    transform: translate(-20%,-350%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: left;
+  }
+  .content1 h4{
+    width: 80%;
+    font-size: 25px;
+    bottom: 0;
+    left: 20%;
+    transform: translate(-20%,500%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: left;
+  }
+  .content1 h5{
+    width: 80%;
+    font-size: 25px;
+    bottom: 0;
+    left: 20%;
+    transform: translate(5%,600%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: left;
+  }
+  .content1 p{
+    width: 80%;
+    color: white;
+    font-family: 'Lato-Reg';
+    font-size: 16px;
+    bottom: 0;
+    left: 20%;
+    justify-content: center;
+    transform: translate(-20%, 30%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: left;
+  }
+  .bg-slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .bg-navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    display: flex;
+  }
+
+}
+/* Action media */
+@media screen and (max-width: 990px) {
+  /* Action Media*/
+
+  .action-layout{
+    overflow-x: hidden;
+    min-height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Baby-SeaTurtle.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -1;
+  }
+  .link_actions h2{
+    font-family: 'Uni-Bold';
+    font-size: 110px;
+    color: #bc8f57;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: -50px;
+    margin: 5px;
+  }
+  .link-act{
+    font-family: 'Uni-Bold';
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    bottom: -1000px;
+    margin: 20px;
+    right: -20px;
+    margin-bottom: 100px;
+  }
+  .linksACTION{
+    text-align: center;
+    position: absolute;
+    /* background-color: rgb(0,0,0,0.4); */
+    width: 100%;
+    bottom: -1175px;
+    right: 0;
+
+    /* background-color: #c38438; */
+  }
+  .linksACTION a{
+    font-family: 'Uni-Bold';
+    color: #bc8f57;
+    font-size: large;
+
+  }
+  .ways-action h4{
+    font-family: 'Uni-Bold';
+    font-size: 55px;
+    color: white;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    bottom: -590px;
+    margin: 15px;
+
+  }
+  .content-action {
+    position: relative;
+    top: 0;
+    left: 0;
+
+  }
+  .content-action p{
+    font-family: 'Uni-Bold';
+    text-align: center ;
+    color: white;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    bottom: -1150px;
+    margin-bottom: 300px;
+  }
+
+}
+/* About media */
+@media screen and (max-width: 990px){
+
+  /* About Us Media */
+  .about-layout{
+    overflow-x: hidden;
+    min-height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Stray-Cat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    position: absolute;
+  }
+
+  .about-content h1{
+    color: #bc8f57;
+  }
+  .about-content p{
+    font-family: 'Lato-Reg';
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: white;
+  }
+
+  .more-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 3px solid #bc8f57;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  .more-btn:hover{
+    border: 1px solid white;
+    background: #bc8f57;
+    transition: 1s;
+  }
+  /* About Us Media */
+}
+/* Know-more media */
+@media (max-width: 990px) {
+  .know-layout{
+    overflow-x: hidden;
+    max-height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/giraffe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .know-content{
+    width: 80%;
+    height: 80%;
+    position: relative;
+
+    top: 50%;
+    left: 77%;
+    transform: translate(-85%,128%);
+    text-align: left;
+    background: rgb(0,0,0,0.4);
+  }
+  .know-content h1{
+    font-family: 'Uni-Bold';
+    text-align: center;
+    color: #bc8f57;
+    margin: 10px 3% 40px;
+    margin-bottom: 10px;
+    font-size: 62px;
+  }
+  .know-content p{
+    margin: 10px 3% 40px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Lato-Reg';
+  }
+  .slider {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+  .middle{
+    position: relative;
+    top: 56%;
+    left: 30%;
+    transform: translate(-29.5%,-92%);
+  }
+
+  .tht{
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 300%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/giraffe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .tht-column{
+    width: 100%;
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    background: rgb(0,0,0,0.4);
+    padding: 25px;
+    display: flex;
+    font-family: 'Roboto-Reg';
+    font-size: 20px;
+    color: white;
+    transform: translate(0, 7%);
+    border-style: solid;
+    border-color: #bc8f57;
+  }
+
+  .tht-column img{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #bc8f57;
+  }
+
+
+}
+
