@@ -545,7 +545,7 @@ p.paraEAGLE2{
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
-
+  z-index:1 ;
 }
 .about-content h1{
   margin: 10px 0 40px;
