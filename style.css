@@ -384,7 +384,7 @@ p.paraEAGLE2{
   font-family: 'Lato-Reg';
   color: #fff;
 }
-
+ /* Action HTML */
 .link_action{
   position: absolute;
   top: 20%;
@@ -428,13 +428,67 @@ p.paraEAGLE2{
 
 }
 
-@media screen and (max-width: 600px) {
-  .layout{
-    background-image: url("images/banner-img.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+@media screen and (max-width: 700px) {
+  /* Action Media*/
+  .action-layout{
+    overflow-x: hidden;
+    min-height: 100%;
     width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/About/Animals/Baby-SeaTurtle.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    position: absolute;
+  }
+  .link_actions h2{
+    font-family: 'Uni-Bold';
+    font-size: 50px;
+    color: skyblue;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 10px;
+  }
+  .link-act h4{
+    font-family: 'Uni-Bold';
+    font-size: 20px;
+    color: skyblue;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    bottom: -1200px;
+    margin: 10px;
+  }
+  .linksACTION h2{
+    font-family: 'Uni-Bold';
+    font-size: 20px;
+    color: gold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    bottom: -1900px;
+    padding: 15px;
+  }
+  .ways-action h4{
+    font-family: 'Uni-Bold';
+    font-size: 20px;
+    color: skyblue;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+  .content-action p{
+    font-family: 'Uni-Bold';
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    bottom: -1080px;
+    padding: 40px;
   }
 }
 /* About HTML */
@@ -448,12 +502,12 @@ p.paraEAGLE2{
 }
 .about-layout{
   min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: absolute;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner-img.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
 }
 .about-content{
   width: 50%;

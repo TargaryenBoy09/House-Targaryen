@@ -13,7 +13,7 @@
 <body>
 
   <!-- Layout -->
-<section class="about-layout">
+<section class="action-layout">
   <nav>
       <div class="logo">
           <a href="index.html"><i class="fa-solid fa-dragon"></i> </a>
@@ -31,15 +31,15 @@
 
   </nav>
   
-  <div class="link_action">
+  <div class="link_actions">
     <h2>TAKE ACTION NOW!</h2>
   </div>
 
-  <div class="lnkact">
+  <div class="link-act">
     <h4><br>Organizations Where You Can Volunteer and Donate:</h4>
   </div>
 
-  <div class="linkACTION">
+  <div class="linksACTION">
 
       <a href = "https://wwf.org.ph/what-we-do/wildlife/#:~:text=WWF%20works%20to%20conserve%20the,and%20seascapes%20thriving%20and%20productive." target = "_blank">
         <h2>World Wide Fund for Nature (WWF)</h2></a>
@@ -51,9 +51,9 @@
       </a>
   </div>
 
-  <div class="ways"><h4>WAYS TO HELP ENDANGERED ANIMALS</h4></div>
+  <div class="ways-action"><h4>WAYS TO HELP ENDANGERED ANIMALS:</h4></div>
 
-    <div class = "cont">
+    <div class = "content-action">
       <p>1. Visit a national park, wildlife refuge, or protected area. These areas provide habitat for hundreds of threatened species!
         <br>2. Reduce, reuse, recycle! Recycling and reducing your waste helps our planet and all those who live on it.
         <br>3. Don’t purchase items like ivory, real tortoise shell, coral, etc. The sale of these items lead to serious population problems for endangered species.
@@ -66,11 +66,7 @@
         <br>10. Learn! Educate yourself on local endangered animals, as well as species native to your area. You never know who you are sharing your city with!</p>
     </div>
 
-
-
-
-
-
+</section>
 
 </div>
     <footer class="footer">
@@ -83,6 +79,18 @@
 
         </ul>
     </footer>
-</section>
+
+<!--Toggle menu-->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+</script>
+
 </body>
 </html>
