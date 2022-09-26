@@ -5,6 +5,17 @@
   list-style: none;
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #bc8f57;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid white;  /* creates padding around scroll thumb */
+}
 html {
   scroll-behavior: smooth;
 }
@@ -25,7 +36,6 @@ html {
   height: 100vh;
   width: 100%;
 }
-
 /* --------------------------------------------------------------- */
 /* This section is for the navigator bar, footer, video, and logo */
 nav{
@@ -116,6 +126,7 @@ footer{
   bottom: 0;
   width: 100%;
   left: 2%;
+  
 }
 
 footer ul li{
@@ -372,12 +383,14 @@ p.paraEAGLE2{
   bottom: 3%;
   right: 2%;
   /* background-color: #c38438; */
+  z-index:1;
 }
 
 .linkACTION a{
   font-family: 'Uni-Bold';
   color: #fff;
   font-size: large;
+
 }
 
 .linkACTION h4{
@@ -425,6 +438,7 @@ p.paraEAGLE2{
   text-align: left ;
   font-family: "Lato-Reg";
   color: #fff;
+
 
 }
 
@@ -517,7 +531,7 @@ p.paraEAGLE2{
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
-
+  z-index: 1;
 }
 .about-content h1{
   margin: 10px 0 40px;
@@ -852,6 +866,7 @@ nav .fa{
   height: 100%;
   overflow: hidden;
   position: absolute;
+
 }
 
 .slider {
