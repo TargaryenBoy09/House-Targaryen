@@ -383,12 +383,14 @@ p.paraEAGLE2{
   bottom: 3%;
   right: 2%;
   /* background-color: #c38438; */
+  z-index:1;
 }
 
 .linkACTION a{
   font-family: 'Uni-Bold';
   color: #fff;
   font-size: large;
+
 }
 
 .linkACTION h4{
@@ -436,6 +438,7 @@ p.paraEAGLE2{
   text-align: left ;
   font-family: "Lato-Reg";
   color: #fff;
+
 
 }
 
