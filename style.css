@@ -5,6 +5,17 @@
   list-style: none;
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #bc8f57;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid white;  /* creates padding around scroll thumb */
+}
 html {
   scroll-behavior: smooth;
 }
