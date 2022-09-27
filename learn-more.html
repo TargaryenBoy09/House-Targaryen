@@ -16,12 +16,17 @@
         <div class="logo">
             <a href="index.html"><i class="fa-solid fa-dragon"></i> </a>
         </div>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="animals.html">ENDANGERED ANIMALS</a></li>
-            <li><a href="action.html">TAKE ACTION</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-        </ul>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="animals.html">ENDANGERED ANIMALS</a></li>
+                <li><a href="action.html">TAKE ACTION</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+
     </nav>
 </div>
 
@@ -39,9 +44,8 @@
             infrastructure makes it difficult for civilians and law enforcement to report breaches—moreover, pervasive
             harmful practices and a lack of appreciation for nature fuel this destructive activity.</p>
     </div>
+</div>
 
-</div>
-</div>
 <footer class="footer">
     <ul>
         <li><a>Powered by House Targaryen</a></li>
@@ -52,5 +56,15 @@
 
     </ul>
 </footer>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 </body>
 </html>

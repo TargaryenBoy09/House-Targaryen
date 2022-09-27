@@ -15,33 +15,34 @@
 <div class="layout">
     <nav>
         <div class="logo">
-            <a href="index.html"><i class="fa-solid fa-dragon"></i> </a>     
+            <a href="index.html"><i class="fa-solid fa-dragon"></i> </a>
         </div>
-        
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="animals.html">ENDANGERED ANIMALS</a></li>
-            <li><a href="action.html">TAKE ACTION</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            
-            <input type="text" placeholder="Search" class="search">     
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-        </ul>    
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="animals.html">ENDANGERED ANIMALS</a></li>
+                <li><a href="action.html">TAKE ACTION</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+
     </nav>
-<!-- 
+
+
     <div  class="video">
         <video controls width = "228" loop autoplay muted>
             <source src="images/1.mp4" type="video/mp4">
         </video>
-        
+
     </div>
 
     <div class="video_2">
-        <video controls width = "228" loop muted>
+        <video controls width = "228" loop autoplay muted>
             <source src="images/2.mp4" type="video/mp4">
         </video>
-    </div> -->
-    
+    </div>
     <footer class="footer">
         <ul>
             <li><a>Powered by House Targaryen</a></li>
